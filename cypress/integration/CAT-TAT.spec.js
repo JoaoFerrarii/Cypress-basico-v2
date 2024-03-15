@@ -188,5 +188,5 @@ describe('Central de Atendimento ao Cliente TAT', function() {
     })
 
 /*qaundo quiser mudar para dimensão de um mobile so alterar no cypress.json alterando no viewportHeight e Widht*/
-
+/*Ci= pipeline de integração continua, sempre que houver git oush essa pipeline vai ser disparada(qualquer push de qualquer branch vai disparar a pipeline)  */
 })

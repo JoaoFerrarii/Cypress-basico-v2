@@ -1,5 +1,4 @@
-/*Ci= pipeline de integração continua, sempre que houver git oush essa pipeline vai ser disparada(qualquer push de qualquer branch vai disparar a pipeline)  */
-name: End-to-end tests 🧪
+name: End-to-end tests
 on: [push]
 jobs:
   cypress-run:
@@ -11,3 +10,4 @@ jobs:
       # and run all Cypress tests
       - name: Cypress run
         uses: cypress-io/github-action@v2
+        
